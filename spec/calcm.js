@@ -11,3 +11,14 @@ describe('multiply', function() {
     expect(result).toEqual(24)
       });
 });
+
+describe('calculator_instance.multiply', function (){
+
+  it('should multiply two numbers',function () {
+      let calculator_instance = new Calculator();
+      let multiply = calculator_instance.multiply(30,2);
+      expect(multiply).toEqual(60);
+  });
+});
+
+
