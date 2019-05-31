@@ -20,20 +20,3 @@ describe('add', function () {
     expect(result).toEqual(10)
   });
 });
-
-describe('calculator_instance.add', function () {
-
-  it('should add two numbers', function () {
-    let calculator_instance = new Calculator();
-    let sum = calculator_instance.add(1, 4);
-    expect(sum).toEqual(5);
-  });
-
-  it('should add a couple of numbers', function () {
-    let calculator_instance = new Calculator();
-    let sum = calculator_instance.add(3, 5, 2);
-    expect(sum).toEqual(10);
-  });
-
-
-});
