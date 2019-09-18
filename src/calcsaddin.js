@@ -13,8 +13,6 @@ class Calculator {
         this.lastNum = sum;
         return sum;
     }
-
-
     /*muiltiply numbers*/
 
     multiplyNum() {
@@ -25,7 +23,6 @@ class Calculator {
         this.lastNum = muiltiply;
         return muiltiply;
     }
-
     /*return last*/
 
     last() {
@@ -39,4 +36,4 @@ class Calculator {
     get_slot(number) {
         return this.slot[number];
     }
-};
+}

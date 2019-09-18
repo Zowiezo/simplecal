@@ -3,5 +3,5 @@ function multiply() {
   for (let i = 0; i < arguments.length; i++) {
     multiply *= arguments[i];
   }
-  return multiply
+  return multiply;
 }

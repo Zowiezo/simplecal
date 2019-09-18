@@ -1,0 +1,22 @@
+{
+  "name": "simplecal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zowiezo/simplecal.git"
+  },
+  "author": "Zoleka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zowiezo/simplecal/issues"
+  },
+  "homepage": "https://github.com/Zowiezo/simplecal#readme",
+  "dependencies": {
+    "jasmine": "^3.4.0"
+  }
+}
