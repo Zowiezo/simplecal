@@ -3,7 +3,7 @@ class Calculator {
         this.lastNum = 0;
         this.slot = [];
     }
-    /*add numbers*/
+    //add numbers
 
     addNum() {
         let sum = 0;
@@ -13,7 +13,9 @@ class Calculator {
         this.lastNum = sum;
         return sum;
     }
-    /*muiltiply numbers*/
+
+
+    //muiltiply numbers
 
     multiplyNum() {
         let muiltiply = 1;
@@ -23,7 +25,8 @@ class Calculator {
         this.lastNum = muiltiply;
         return muiltiply;
     }
-    /*return last*/
+
+    //return last
 
     last() {
         return this.lastNum;
